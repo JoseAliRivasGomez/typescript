@@ -69,10 +69,10 @@
     "skipLibCheck": true,                           /* Skip type checking of declaration files. */
     "forceConsistentCasingInFileNames": true        /* Disallow inconsistently-cased references to the same file. */
   },
-  "exclude": [
+  "exclude": [ /* NO EJECUTA LOS ARCHIVOS .TS DENTRO DE LA SIGUIENTE CARPETA */
     "node_modules2"
   ],
-  "include": [
+  "include": [ /* SOLAMENTE EJECUTA LOS ARCHIVOS .TS DENTRO DE LA SIGUIENTE CARPETA */
     "interfaces"
   ]
 }
